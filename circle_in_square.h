@@ -5,7 +5,6 @@
 class circle_in_square : public square, public circle
 {
 public:
-	circle_in_square();
 	void Input();
 	void Output();
 };
