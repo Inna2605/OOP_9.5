@@ -5,7 +5,7 @@ class square
 protected:
 	float side;
 public:
-	square();
+	square(int i);
 	void Input();
 	float Square();
 	void Output();

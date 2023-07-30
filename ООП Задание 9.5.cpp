@@ -9,12 +9,12 @@ int main()
 {
     setlocale(LC_ALL, "Ru");
     
-    square Sq;
+    square Sq(20);
     Sq.Input();
     Sq.Output();
     cout << endl << endl << endl;
 
-    circle Cr;
+    circle Cr(30);
     Cr.Input();
     Cr.Output();
     cout << endl << endl << endl;

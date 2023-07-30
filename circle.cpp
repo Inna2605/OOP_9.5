@@ -5,9 +5,9 @@
 #include "circle.h"
 using namespace std;
 
-circle::circle()
+circle::circle(int i)
 {
-	diameter = 0;
+	diameter = i;
 }
 
 void circle::Input()

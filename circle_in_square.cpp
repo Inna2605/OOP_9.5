@@ -4,12 +4,8 @@
 #include "circle_in_square.h"
 using namespace std;
 
-circle_in_square::circle_in_square(int i)
-{
-	side = i;
-	diameter = i;
-}
-
+circle_in_square::circle_in_square(int i) : square(i), circle(i)
+{}
 void circle_in_square::Input()
 {
 	cout << "¬ведите диаметр вписаного круга в квадрат: ";

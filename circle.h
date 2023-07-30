@@ -5,7 +5,7 @@ class circle
 protected:
 	float diameter;
 public:
-	circle();
+	circle(int i);
 	void Input();
 	float Square();
 	void Output();

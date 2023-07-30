@@ -3,9 +3,9 @@
 #include "square.h"
 using namespace std;
 
-square::square()
+square::square(int i)
 {
-	side = 0;
+	side = i;
 }
 
 void square::Input()
