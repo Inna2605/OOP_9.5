@@ -19,8 +19,9 @@ int main()
     Cr.Output();
     cout << endl << endl << endl;
 
-    circle_in_square Cr_Sq;
+    circle_in_square Cr_Sq(0);
     Cr_Sq.Input();
     Cr_Sq.Output();
     cout << endl;
+    
 }
